@@ -19,6 +19,15 @@ body {
   padding: 20px 0px 20px 0px;
 }
 
+th.col-sm {
+  text-align: center
+}
+
+td.col-sm.name {
+  padding-left: 20px;
+  text-align: left;
+}
+
 .btn.btn-light {
   margin: 0px 5px 0px 10px;
 }
