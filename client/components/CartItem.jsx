@@ -4,7 +4,7 @@ const CartItem = (props) => {
   return (
     <tr className="row">
       <td className="col-sm">{props.item.name}</td>
-      <td className="col-sm">${props.item.price}</td>
+      <td className="col-sm">${props.item.price.toFixed(2)}</td>
       <td className="col-sm">{props.item.quantity}</td>
       <td className="col-sm">${props.item.subtotal.toFixed(2)}</td>
       <td>
