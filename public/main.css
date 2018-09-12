@@ -2,22 +2,23 @@ body {
   padding: 10px;
 }
 
-tr {
-  padding-left: 20px;
+.container {
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
-th {
-  padding: 10px 20px 10px 20px;
+.shopping-cart {
+  padding: 20px 10px 10px 10px;
 }
 
-td {
-  padding: 10px 20px 10px 20px;
+.cart {
+  padding: 20px 10px 10px 0px;
 }
 
-.cart th {
-  padding: 10px 40px 10px 40px;
+.welcome {
+  padding: 20px 0px 20px 0px;
 }
 
-.cart td {
-  padding: 10px 60px 10px 40px;
+.btn.btn-light {
+  margin: 0px 5px 0px 10px;
 }
