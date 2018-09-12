@@ -1,0 +1,23 @@
+body {
+  padding: 10px;
+}
+
+tr {
+  padding-left: 20px;
+}
+
+th {
+  padding: 10px 20px 10px 20px;
+}
+
+td {
+  padding: 10px 20px 10px 20px;
+}
+
+.cart th {
+  padding: 10px 40px 10px 40px;
+}
+
+.cart td {
+  padding: 10px 60px 10px 40px;
+}
