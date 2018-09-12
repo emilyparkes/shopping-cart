@@ -6,13 +6,14 @@ import { addToCart } from '../actions/index'
 
 const ProductList = (props) => {
   return (
-    <div className='products-list'>
-      <h5 className='welcome'>Welcome! Please choose your desired items</h5>
-      <table>
-        <thead>
-          <tr>
-            <th>Item</th>
-            <th>Price</th>
+    <div className="container">
+      <h5 className="welcome">Welcome! Please choose your desired items.</h5>
+      <table className="table table-hover">
+        <thead className="thead-dark">
+          <tr className="row">
+            <th scope="col" className="col-sm">Tools</th>
+            <th scope="col" className="col-sm">Price</th>
+            <th scope="col" className="col-sm">Buy</th>
           </tr>
         </thead>
 

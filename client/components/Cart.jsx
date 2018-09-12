@@ -32,16 +32,16 @@ class Cart extends React.Component {
   render() {
     const total = this.getTotal()
     return (
-      <div className='cart'>
-        <h2>Your Cart</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Item</th>
-              <th>Price</th>
-              <th>Quantity</th>
-              <th>Subtotal</th>
-              <th>Remove</th>
+      <div className="container">
+        <h2 className="cart">Your Cart</h2>
+        <table className="table table-hover">
+          <thead className="thead-dark">
+            <tr className="row">
+              <th scope="col" className="col-sm">Item</th>
+              <th scope="col" className="col-sm">Price</th>
+              <th scope="col" className="col-sm">Quantity</th>
+              <th scope="col" className="col-sm">Subtotal</th>
+              <th scope="col" className="col-sm">Remove</th>
             </tr>
           </thead>
 
